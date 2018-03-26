@@ -306,6 +306,7 @@ a {
       0%   {left:-5vw; top:27vh; opacity:0;}
       100% {left:50vw; top:27vh; opacity:1;}
   }
+	#bio {font-size: 3.5vw;}
   #para1 img {
     width: 120%;
     left: -5vw;
