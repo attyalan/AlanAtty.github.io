@@ -17,6 +17,10 @@
     font-family: 'OsVet2';
     src: url(OstrichSans-Bold.otf);
 }
+@font-face {
+    font-family: 'Agency';
+    src: url(Agency_FB.ttf);
+}
 
 body {
   background-color: #FFF9F6;
