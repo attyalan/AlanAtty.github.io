@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'OsVet';
+    src: url(OstrichSansInline-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Os';
+    src: url(OstrichSans-Medium.otf);
+}
+
+@font-face {
+    font-family: 'OsLicht';
+    src: url(OstrichSans-Light.otf);
+}
+
+@font-face {
+    font-family: 'OsVet2';
+    src: url(OstrichSans-Bold.otf);
+}
+
+body {
+  background-color: #FFF9F6;
+  height:100vh;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top:57%;
+  width: 60%;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Os";
+  font-size: 3.5vw;
+  opacity: .3;
+  color: #C3AB99;
+  text-align: right;
+  padding-top: 1vh;
+}
+
+
+ul {
+  position: absolute;
+  top: 8vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  -webkit-animation-name: slideT;
+    -webkit-animation-duration: 1s;
+    animation-name: slideT;
+    animation-duration: 1s;
+}
+@-webkit-keyframes slideT {
+    0%   {left:50vw; top:-10vh; opacity:0;}
+    100% {left:50vw; top:8vh; opacity:1;}
+}
+li {
+  display: inline-block;
+  font-family: "Os";
+  font-size: 7.63vh;
+}
+#about {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+ul a {
+  color: #C3AB99;
+  opacity: .6;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  div {
+    width: 80%;
+  }
+  h3 {
+    font-size: 4.5vw;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  div {
+    width: 90%;
+  }
+  h3 {
+    font-size: 6.5vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  li {
+    font-size: 4.5vh;
+  }
+
+}
